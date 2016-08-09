@@ -1,10 +1,12 @@
 # COM Example
 
-A simple C# class library exposed as a COM server.
+A simple C# class library exposed as a COM server.  
 
-Build the Visual Studio project to register the COM class.
+Project is based on [this tutorial](https://whoisburiedhere.wordpress.com/2011/07/12/creating-a-com-object-from-scratch-with-c/).  
 
-Run the COMClient.vbs script to call the COM server object.
+Build the Visual Studio project to register the COM class.  
+
+Run the COMClient.vbs script to call the COM server object.  
 
 ```vbs
 'Use this script to make a call to the COM object
