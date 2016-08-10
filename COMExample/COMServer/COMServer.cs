@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace COMServerExample
+namespace COMServer
 {
     [InterfaceType(ComInterfaceType.InterfaceIsIDispatch),
     Guid("3dcc2d3f-186f-4318-8fcf-a4bff6f6dff1")] 
@@ -12,7 +12,7 @@ namespace COMServerExample
 
     [ClassInterface(ClassInterfaceType.None),
         Guid("cac571c8-cd3d-4f11-b675-a04e015e1aac"),
-        ProgId("COMServerExample.ComClassExample")]
+        ProgId("COMServer.ComClassExample")]
     public class ComClassExample : IComClassExample
     {
         public ComClassExample() { }

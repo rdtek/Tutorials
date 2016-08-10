@@ -7,8 +7,8 @@
     <ProjectGuid>{3C9145D2-09C5-41B3-8FC9-D5CC1A4B2BB7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>COMServerExample</RootNamespace>
-    <AssemblyName>COMServerExample</AssemblyName>
+    <RootNamespace>COMServer</RootNamespace>
+    <AssemblyName>COMServer</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -89,14 +89,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="COMServerExample.cs" />
+    <Compile Include="COMServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ComServerExample.snk" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="COMClient.vbs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

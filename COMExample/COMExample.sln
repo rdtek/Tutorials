@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COMServerExample", "COMExample\COMServerExample.csproj", "{3C9145D2-09C5-41B3-8FC9-D5CC1A4B2BB7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "COMClientScripts", "COMClientScripts", "{EBCBA314-F165-4190-B2E9-803275EA0006}"
+	ProjectSection(SolutionItems) = preProject
+		COMClientScripts\COMClient.ie.html = COMClientScripts\COMClient.ie.html
+		COMClientScripts\COMClient.py = COMClientScripts\COMClient.py
+		COMClientScripts\COMClient.vbs = COMClientScripts\COMClient.vbs
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "COMClientCPP", "COMClientCPP\COMClientExampleCPP.vcxproj", "{869F46D3-5C1D-4369-96C1-BEF47DD44C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COMServer", "COMServer\COMServer.csproj", "{3C9145D2-09C5-41B3-8FC9-D5CC1A4B2BB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +24,16 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{869F46D3-5C1D-4369-96C1-BEF47DD44C12}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{869F46D3-5C1D-4369-96C1-BEF47DD44C12}.Debug|x64.ActiveCfg = Debug|x64
+		{869F46D3-5C1D-4369-96C1-BEF47DD44C12}.Debug|x64.Build.0 = Debug|x64
+		{869F46D3-5C1D-4369-96C1-BEF47DD44C12}.Debug|x86.ActiveCfg = Debug|Win32
+		{869F46D3-5C1D-4369-96C1-BEF47DD44C12}.Debug|x86.Build.0 = Debug|Win32
+		{869F46D3-5C1D-4369-96C1-BEF47DD44C12}.Release|Any CPU.ActiveCfg = Release|Win32
+		{869F46D3-5C1D-4369-96C1-BEF47DD44C12}.Release|x64.ActiveCfg = Release|x64
+		{869F46D3-5C1D-4369-96C1-BEF47DD44C12}.Release|x64.Build.0 = Release|x64
+		{869F46D3-5C1D-4369-96C1-BEF47DD44C12}.Release|x86.ActiveCfg = Release|Win32
+		{869F46D3-5C1D-4369-96C1-BEF47DD44C12}.Release|x86.Build.0 = Release|Win32
 		{3C9145D2-09C5-41B3-8FC9-D5CC1A4B2BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3C9145D2-09C5-41B3-8FC9-D5CC1A4B2BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C9145D2-09C5-41B3-8FC9-D5CC1A4B2BB7}.Debug|x64.ActiveCfg = Debug|x64

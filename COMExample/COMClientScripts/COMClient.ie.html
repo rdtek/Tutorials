@@ -1,0 +1,15 @@
+<HTML>
+    <HEAD>
+        <SCRIPT language="javascript">
+            function Test() {
+                var objTest = new ActiveXObject("COMServer.ComClassExample");
+                alert("Result from COM server: " + objTest.AddTheseUp(100, 200));
+            }
+        </SCRIPT>
+    </HEAD>
+
+    <BODY>
+        <p>This will only work in Internet Explorer which supports ActiveX.</p>
+        <INPUT Type="button" onClick="Test()" Value="Click here to test!">
+    </BODY>
+</HTML>
