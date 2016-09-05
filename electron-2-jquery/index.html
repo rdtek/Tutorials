@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Electron with jQuery</title>
+  </head>
+  <body>
+    <h1>Electron with jQuery</h1>
+    <p>jQuery version <span id="jQueryVersion"></span>.</p>
+    <p>The current time is:<span id="time"></span></p>
+    
+  </body>
+
+  <script>
+    //Load jQuery
+	window.$ = window.jQuery = require('jquery');
+    
+    //Print the jQuery version
+    $('#jQueryVersion').text( $().jquery );
+    
+    //Print the time
+    var now = new Date(); 
+	$('#time').text( now.getHours()+':'+now.getMinutes()+':'+now.getSeconds() );
+  </script>
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
