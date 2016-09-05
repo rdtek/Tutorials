@@ -1,2 +1,2 @@
-# Minial Electron Application 
-Example of a simple minimal Electron application.
+# Electron jQuery Application 
+Example showing how to use jQuery in a simple Electron app.
