@@ -1,0 +1,17 @@
+{
+  "name": "electron-min",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "RD",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.3.4"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
