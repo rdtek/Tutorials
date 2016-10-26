@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace COMServer
 {
-    [InterfaceType(ComInterfaceType.InterfaceIsIDispatch),
+    [InterfaceType(ComInterfaceType.InterfaceIsDual),
     Guid("3dcc2d3f-186f-4318-8fcf-a4bff6f6dff1")] 
     public interface IComClassExample
     {
